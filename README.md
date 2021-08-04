@@ -40,3 +40,13 @@ sudo visudo -f /etc/sudoers.d/student
 ```
 cut -d: -f1 /etc/password
 ```
+
+### PAM password securitu
+
+Install this library
+```
+sudo apt install libpam-pwquality
+```
+
+To see more information about it . [Link](https://www.youtube.com/watch?v=uebQr2KvQzA)
+
