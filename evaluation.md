@@ -43,8 +43,8 @@ Both servers are popular choices in the market; let us discuss some of the major
 * There is one more thing that one should keep in mind when installing a Web Server. If this server is going to be used as a reseller tool, he/she may want to install a tool called cPanel, and in such a case going with CentOS is recommended, as it is officially supported
 
 
-### CentOS | ### Debian
---|--
+### CentOS|### Debian
+---|---
 CentOS is more stable and supported by a large community | Debian has relatively less market preference.
 Mission-critical servers are hosted on CentOS | Ubuntu is fast catching up. A lot of people are betting on it.
 Usually, it is very difficult to upgrade a version of CentOS locally. Official sources recommend installing a newer version then to upgrade an older one. | Upgrading Debian from one stable version to another is easy and not painf
