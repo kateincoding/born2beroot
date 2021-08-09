@@ -58,3 +58,7 @@ higher-level package managers
 
 * Aptitude: Aptitude is front-end to advanced packaging tool which adds a user interface to the functionality 
 
+Resources:
+
+LinuxFoundationX LFS101x
+Introduction to Linux
