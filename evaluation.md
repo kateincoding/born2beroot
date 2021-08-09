@@ -2,17 +2,17 @@
 
 ## Overview
 
-*  Basic functioning of the virtual machine
+### 1.Basic functioning of the virtual machine
 
 A virtual machine, commonly shortened to just VM, A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps (is no different than any other physical computer). It has a CPU, memory, disks to store your files, and can connect to the internet if needed. While the parts that make up your computer (called hardware) are physical and tangible, VMs are often thought of as virtual computers or software-defined computers within physical servers, existing only as code.
 
 ![VM](https://azurecomcdn.azureedge.net/cvt-c6423f74796365dad64d76835f10a79b10d64b0ec5f06b8061d1a854a4cd1ed1/images/page/overview/what-is-a-virtual-machine/overview-img.png)
 
-* How does a virtual machine work?
+### 2.How does a virtual machine work?
 Virtualization is the process of creating a software-based, or "virtual" version of a computer
  A virtual machine is a computer file, typically called an image, that behaves like an actual computer. It can run in a window as a separate computing environment, often to run a different operating system—or even to function as the user's entire computer experience—as is common on many people's work computers. The virtual machine is partitioned from the rest of the system, meaning that the software inside a VM can't interfere with the host computer's primary operating system.
 
-* Choice of operating system?
+### 3.Choice of operating system?
 Debian
 
 The families and representative lINUX distributions we are using are: 
@@ -34,7 +34,7 @@ It uses the DPKG-based APT package manager (using apt, apt-get, apt-cache, etc. 
 Ubuntu has been widely used for cloud deployments.
 While Ubuntu is built on top of Debian and is GNOME-based under the hood, it differs visually from the interface on standard Debian, as well as other distributions.
 
-## Key diferences between CentOS and Debian
+### 4.Key diferences between CentOS and Debian
 
 Both servers are popular choices in the market; let us discuss some of the major difference:
 
@@ -51,7 +51,7 @@ Usually, it is very difficult to upgrade a version of CentOS locally. Official s
 It does not have an easy GUI. | It has desktop friendly applications and GUI.
 The core software of CentOS, such as the RHEL/CentOS components, also the kernel and all its utilities, come from the distribution, while the add-on software like Apache, PHP, Java, and MySQL come from newer sources such as Fedora or from vendors directly such as MySQL | A real reason to use Debian is if they provide unique functionality that is necessary for a system; in such cases switching to Debian makes sense. Apt repositories in package managers have the latest source code for several open-source languages and frameworks like ruby, rails, PostgreSQL, Golang, selenium, angular2-dart etc. Ubuntu is very suitable to work with when using Docker file/s docker containers.
 
-## Diff between aptitude and apt?(package management)
+### 5.Diff between aptitude and apt?(package management)
 Aptitude is a high-level package manager while APT is lower-level package manager which can be used by other 
 higher-level package managers
 
