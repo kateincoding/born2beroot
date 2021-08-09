@@ -50,3 +50,7 @@ sudo apt install libpam-pwquality
 
 To see more information about it . [Link](https://www.youtube.com/watch?v=uebQr2KvQzA)
 
+### CRONTAB
+
+A crontab file contains instructions to the cron(8) daemon of the general form: "run this command at this time on this date". Each user has their own crontab, and commands in any given crontab will be executed as the user who owns the crontab.
+
