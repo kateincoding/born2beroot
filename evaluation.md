@@ -56,11 +56,6 @@ The core software of CentOS, such as the RHEL/CentOS components, also the kernel
 Aptitude is a high-level package manager while APT is lower-level package manager which can be used by other 
 higher-level package managers
 
-* apt: Apt is whole command line with no GUI. It finds that package in configured list of sources specified in ‘/etc/apt/sources.list’
-
-* Aptitude: Aptitude is front-end to advanced packaging tool which adds a user interface to the functionality 
->>>>>>> 47d69848219466210f1158941aaa20965b187b8c
-
 Both servers are popular choices in the market; let us discuss some of the major difference:
 
 * One should pick Debian as it generally has more up to date packages and because it is easier to upgrade to a newer version. A lot of people have started their GNU/Linux journey with Red Hat Linux, and they have always used CentOS and Fedora on their Desktop.
@@ -81,9 +76,18 @@ higher-level package managers
 
 * apt: Apt is whole command line with no GUI. It finds that package in configured list of sources specified in ‘/etc/apt/sources.list’
 
-* Aptitude: Aptitude is front-end to advanced packaging tool which adds a user interface to the functionality 
+* Aptitude: Aptitude is front-end to advanced packaging tool which adds a user interface to the functionality. Aptitude is a high-level package manager while APT is lower-level package manager which can be used by other higher-level package managers, other main highlights that separate these two package managers are:
+	- Aptitude is vaster in functionality than apt-get and integrates functionalities of apt-get and its other variants including apt-mark and apt-cache.
+	- apt-mark: show, set and unset various settings for a package
+	- apt-cache command can display much of the information stored in APT's internal database
 
-Resources:
+* What is AppArmor?
+AppArmor ("Application Armor") is a Linux kernel security module that allows the system administrator to restrict programs'
+capabilities with per-program profiles. Profiles can allow capabilities like network access, raw socket access, and the permission to read, write, or execute files on matching paths. AppArmor supplements the traditional Unix discretionary access control (DAC) model by providing mandatory access control (MAC)
+
+
+
+# Resources:
 
 LinuxFoundationX LFS101x
 Introduction to Linux
