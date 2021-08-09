@@ -43,11 +43,11 @@ Both servers are popular choices in the market; let us discuss some of the major
 * There is one more thing that one should keep in mind when installing a Web Server. If this server is going to be used as a reseller tool, he/she may want to install a tool called cPanel, and in such a case going with CentOS is recommended, as it is officially supported
 
 
-### CentOS|### Debian
+CentOS|Debian
 ---|---
-CentOS is more stable and supported by a large community | Debian has relatively less market preference.
-Mission-critical servers are hosted on CentOS | Ubuntu is fast catching up. A lot of people are betting on it.
-Usually, it is very difficult to upgrade a version of CentOS locally. Official sources recommend installing a newer version then to upgrade an older one. | Upgrading Debian from one stable version to another is easy and not painf
+CentOS is more stable and supported by a large community|Debian has relatively less market preference.
+Mission-critical servers are hosted on CentOS|Ubuntu is fast catching up. A lot of people are betting on it.
+Usually, it is very difficult to upgrade a version of CentOS locally. Official sources recommend installing a newer version then to upgrade an older one.|Upgrading Debian from one stable version to another is easy and not painf
 It does not have an easy GUI. | It has desktop friendly applications and GUI.
 The core software of CentOS, such as the RHEL/CentOS components, also the kernel and all its utilities, come from the distribution, while the add-on software like Apache, PHP, Java, and MySQL come from newer sources such as Fedora or from vendors directly such as MySQL | A real reason to use Debian is if they provide unique functionality that is necessary for a system; in such cases switching to Debian makes sense. Apt repositories in package managers have the latest source code for several open-source languages and frameworks like ruby, rails, PostgreSQL, Golang, selenium, angular2-dart etc. Ubuntu is very suitable to work with when using Docker file/s docker containers.
 
