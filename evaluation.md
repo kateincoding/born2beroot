@@ -35,6 +35,31 @@ Ubuntu has been widely used for cloud deployments.
 While Ubuntu is built on top of Debian and is GNOME-based under the hood, it differs visually from the interface on standard Debian, as well as other distributions.
 
 ## Key diferences between CentOS and Debian
+<<<<<<< HEAD
+=======
+
+Both servers are popular choices in the market; let us discuss some of the major difference:
+
+* One should pick Debian as it generally has more up to date packages and because it is easier to upgrade to a newer version. A lot of people have started their GNU/Linux journey with Red Hat Linux, and they have always used CentOS and Fedora on their Desktop.
+* If one is more used to CentOS and is more accustomed to working with it or have been using it for a long, then there is no real reason to migrate to Debian. CentOS vs Debian are both the best options one can have when choosing a GNU/Linux distribution to install on their web server or any other server.
+* There is one more thing that one should keep in mind when installing a Web Server. If this server is going to be used as a reseller tool, he/she may want to install a tool called cPanel, and in such a case going with CentOS is recommended, as it is officially supported
+
+--|--
+### CentOS | ### Debian
+CentOS is more stable and supported by a large community | Debian has relatively less market preference.
+Mission-critical servers are hosted on CentOS | Ubuntu is fast catching up. A lot of people are betting on it.
+Usually, it is very difficult to upgrade a version of CentOS locally. Official sources recommend installing a newer version then to upgrade an older one. | Upgrading Debian from one stable version to another is easy and not painf
+It does not have an easy GUI. | It has desktop friendly applications and GUI.
+The core software of CentOS, such as the RHEL/CentOS components, also the kernel and all its utilities, come from the distribution, while the add-on software like Apache, PHP, Java, and MySQL come from newer sources such as Fedora or from vendors directly such as MySQL | A real reason to use Debian is if they provide unique functionality that is necessary for a system; in such cases switching to Debian makes sense. Apt repositories in package managers have the latest source code for several open-source languages and frameworks like ruby, rails, PostgreSQL, Golang, selenium, angular2-dart etc. Ubuntu is very suitable to work with when using Docker file/s docker containers.
+
+## Diff between aptitude and apt?(package management)
+Aptitude is a high-level package manager while APT is lower-level package manager which can be used by other 
+higher-level package managers
+
+* apt: Apt is whole command line with no GUI. It finds that package in configured list of sources specified in ‘/etc/apt/sources.list’
+
+* Aptitude: Aptitude is front-end to advanced packaging tool which adds a user interface to the functionality 
+>>>>>>> 47d69848219466210f1158941aaa20965b187b8c
 
 Both servers are popular choices in the market; let us discuss some of the major difference:
 
